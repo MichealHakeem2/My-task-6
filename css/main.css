@@ -169,7 +169,7 @@ body {
 
 .home::before{
     content: "";
-    background-image: linear-gradient(to right,#0062cc52, #c000ff61, #e400ff59);
+    background-image: linear-gradient(to right,#0e00cc52, #0011ff61, #002fff59);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -191,7 +191,6 @@ body {
 .home .homeContent p{
     font-size: 25px;
 }
-
 /* -----End Of Home Section----- */
 /* About Section */
 
@@ -740,13 +739,15 @@ height: 100%;
     padding: 10px;
 }
 
-.socialLinks .social i{
+.socialLinks .social  .img{
     padding: 0px 13px;
     font-size: 27px;
     transition: all 1s;
+    width: 18px;
+    height: 18px;
 }
 
-.socialLinks .social i:hover{
+.socialLinks .social .img:hover{
     cursor: pointer;
     transform: scale(1.5);
 }
@@ -764,7 +765,7 @@ height: 100%;
 /* End Of Footer */
 
 /* UP Button */
-.up i{
+.up .img{
     position: fixed;
     bottom: 60px;
     right: 18px;
@@ -773,22 +774,24 @@ height: 100%;
     line-height: 36px;
     text-align: center;
     font-size: 41px;
-    color: #fdf5ffa8;
-    background: rgb(118 36 124 / 69%);
+    color: #200d8ba8;
+    background: rgba(4, 3, 70, 0.69);
     border-radius: 100%;
     z-index: 1000;
     transition: all 0.3s ;
+    width: 24px;
+    height: 24px;
 }
 
 .up{
     transition: all 1s;
 }
 
-.up i:hover{
+.up .img:hover{
     transform: scale(1.2);
 }
 
-.up i:active{
+.up .img:active{
     box-shadow: crimson 1px 5px 20px;
     background-color: #be5367;
 }
